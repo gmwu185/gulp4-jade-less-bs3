@@ -1,0 +1,1 @@
+{"version":3,"sources":["custom.js"],"names":["console","log","$","jquery"],"mappings":";;AAAAA,OAAO,CAACC,GAAR,CAAY,QAAZ;AAEAC,CAAC,CAAC,YAAY;AACZF,EAAAA,OAAO,CAACC,GAAR,CAAY,eAAZ,EAA6BC,CAAC,GAAGC,MAAjC;AACD,CAFA,CAAD","file":"all.js","sourcesContent":["console.log('js all');\n\n$(function () {\n  console.log('現在 jquery 版本：', $().jquery);\n});\n"]}
