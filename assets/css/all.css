@@ -11,8 +11,8 @@
   font-style: normal;
   font-weight: 400;
   font-display: block;
-  src: url('/assets/iconfont//fa-brands-400.eot');
-  src: url('/assets/iconfont//fa-brands-400.eot?#iefix') format('embedded-opentype'), url('/assets/iconfont//fa-brands-400.woff2') format('woff2'), url('/assets/iconfont//fa-brands-400.woff') format('woff'), url('/assets/iconfont//fa-brands-400.ttf') format('truetype'), url('/assets/iconfont//fa-brands-400.svg#fontawesome') format('svg');
+  src: url('../iconfont//fa-brands-400.eot');
+  src: url('../iconfont//fa-brands-400.eot?#iefix') format('embedded-opentype'), url('../iconfont//fa-brands-400.woff2') format('woff2'), url('../iconfont//fa-brands-400.woff') format('woff'), url('../iconfont//fa-brands-400.ttf') format('truetype'), url('../iconfont//fa-brands-400.svg#fontawesome') format('svg');
 }
 .fab {
   font-family: 'Font Awesome 5 Brands';
@@ -27,8 +27,8 @@
   font-style: normal;
   font-weight: 400;
   font-display: block;
-  src: url('/assets/iconfont//fa-regular-400.eot');
-  src: url('/assets/iconfont//fa-regular-400.eot?#iefix') format('embedded-opentype'), url('/assets/iconfont//fa-regular-400.woff2') format('woff2'), url('/assets/iconfont//fa-regular-400.woff') format('woff'), url('/assets/iconfont//fa-regular-400.ttf') format('truetype'), url('/assets/iconfont//fa-regular-400.svg#fontawesome') format('svg');
+  src: url('../iconfont//fa-regular-400.eot');
+  src: url('../iconfont//fa-regular-400.eot?#iefix') format('embedded-opentype'), url('../iconfont//fa-regular-400.woff2') format('woff2'), url('../iconfont//fa-regular-400.woff') format('woff'), url('../iconfont//fa-regular-400.ttf') format('truetype'), url('../iconfont//fa-regular-400.svg#fontawesome') format('svg');
 }
 .far {
   font-family: 'Font Awesome 5 Free';
@@ -43,8 +43,8 @@
   font-style: normal;
   font-weight: 900;
   font-display: block;
-  src: url('/assets/iconfont//fa-solid-900.eot');
-  src: url('/assets/iconfont//fa-solid-900.eot?#iefix') format('embedded-opentype'), url('/assets/iconfont//fa-solid-900.woff2') format('woff2'), url('/assets/iconfont//fa-solid-900.woff') format('woff'), url('/assets/iconfont//fa-solid-900.ttf') format('truetype'), url('/assets/iconfont//fa-solid-900.svg#fontawesome') format('svg');
+  src: url('../iconfont//fa-solid-900.eot');
+  src: url('../iconfont//fa-solid-900.eot?#iefix') format('embedded-opentype'), url('../iconfont//fa-solid-900.woff2') format('woff2'), url('../iconfont//fa-solid-900.woff') format('woff'), url('../iconfont//fa-solid-900.ttf') format('truetype'), url('../iconfont//fa-solid-900.svg#fontawesome') format('svg');
 }
 .fa,
 .fas {
@@ -7032,8 +7032,8 @@ th {
 }
 @font-face {
   font-family: "Glyphicons Halflings";
-  src: url("/assets/iconfont/glyphicons-halflings-regular.eot");
-  src: url("/assets/iconfont/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("/assets/iconfont/glyphicons-halflings-regular.woff2") format("woff2"), url("/assets/iconfont/glyphicons-halflings-regular.woff") format("woff"), url("/assets/iconfont/glyphicons-halflings-regular.ttf") format("truetype"), url("/assets/iconfont/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
+  src: url("../iconfont/glyphicons-halflings-regular.eot");
+  src: url("../iconfont/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../iconfont/glyphicons-halflings-regular.woff2") format("woff2"), url("../iconfont/glyphicons-halflings-regular.woff") format("woff"), url("../iconfont/glyphicons-halflings-regular.ttf") format("truetype"), url("../iconfont/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
 }
 .glyphicon {
   position: relative;
