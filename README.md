@@ -11,3 +11,10 @@
   - `gulp build --env production` 只執行檔案編譯不會開啟瀏覽器 browser-sysc 功能
   - `--env production` 參數指令運行環境會針對壓縮圖片、壓縮單行程式碼、移除註解處理。
   - `gulp deploy` 配合 `gulp build` 指令後，可以直接發佈到 GitHub Pages。
+
+# JavaScript 函式庫、框架、賴件、套件來源
+- 透過 gulpfile.js 設定的 vendor.js - gulp task `vendorJs`
+  - 自訂的來源路徑 `./source/assets/js/mergeVendors/**/*.js` ，讓舊專案直接引入打包出來的 `allVendors.js` 檔中。
+  - npm 引入的 `./node_modules/...` 專案中有用到的 JavaScript `.js` 檔整合後，打包出來的 `allVendors.js` 檔中。
+  - jQuery 會於引用後，由 `$.order(['jquery.js'])` 排序較前，函式庫需於相關自行饌寫的程式碼前戴入完成。
+- gulp 的 `babel` task 自訂的來源路徑 `./source/assets/js/custom/**/*.js`，用來自行饌寫的 JavaScript 程式碼，輸出後會到 `all.js` 檔中。
