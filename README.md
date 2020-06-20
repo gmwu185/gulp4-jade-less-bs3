@@ -12,7 +12,7 @@
   - `--env production` 參數指令運行環境會針對壓縮圖片、壓縮單行程式碼、移除註解處理。
   - `gulp deploy` 配合 `gulp build` 指令後，可以直接發佈到 GitHub Pages。
 
-# JavaScript 函式庫、框架、賴件、套件來源
+# JavaScript 函式庫、框架、賴件、套件來源
 - 透過 gulpfile.js 設定的 vendor.js - gulp task `vendorJs`
   - 自訂的來源路徑 `./source/assets/js/mergeVendors/**/*.js` ，讓舊專案直接引入打包出來的 `allVendors.js` 檔中。
   - npm 引入的 `./node_modules/...` 專案中有用到的 JavaScript `.js` 檔整合後，打包出來的 `allVendors.js` 檔中。
