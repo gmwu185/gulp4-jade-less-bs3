@@ -100,7 +100,14 @@ gulp.task('less', function (cd) {
 
 gulp.task('babel', function() {
   return gulp
-    .src('./source/assets/js/custom/**/*.js')
+    // .src('./source/assets/js/custom/**/*.js')
+    .src(
+      [
+        './source/assets/js/custom/main.js',
+        './source/assets/js/custom/main2.js',
+      ]
+    )
+    .pipe($.order(['main2.js']))
     .pipe($.sourcemaps.init())
     .pipe($.babel({
       presets: ['@babel/env']
