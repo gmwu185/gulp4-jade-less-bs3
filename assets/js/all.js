@@ -1,1 +1,1 @@
-"use strict";$(function(){});
+"use strict";$(function(){$(".js-form_datetime-1").datetimepicker({autoclose:!0,todayBtn:!0,pickerPosition:"bottom-left",language:"zh-TW"}),$(".js-form_datetime-2").datetimepicker({autoclose:!0,todayBtn:!0,pickerPosition:"bottom-left",language:"zh-TW"});new Vue({el:"#app",data:{message:"Hello Vue!"}})});
