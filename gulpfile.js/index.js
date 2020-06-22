@@ -151,9 +151,11 @@ gulp.task("imageMin", function(){
         }),
         imageminSvgo({
           plugins: [
-            { removeViewBox: true },
-            { cleanupIDs: false },
-            { removeDimensions: true } // 如果有 viewbox 則不需要 width 和 height 
+            { removeViewBox: true }
+            ,
+            { cleanupIDs: false }
+            ,
+            { removeDimensions: true } // 如果有 viewbox 則不需要 width 和 height (true)，若要寬高的話使用 (false). 
           ]
         })
       ]
